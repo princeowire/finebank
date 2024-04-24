@@ -1,0 +1,96 @@
+.nav {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 20%;
+  height: 100%;
+  border-right: solid;
+  border-color: rgba(0, 22, 22, 0.4);
+  background-color: rgb(20, 22, 26);
+  color: white;
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.active-btn {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+button {
+  padding: 10px;
+  width: 200px;
+  border: none;
+  background-color: inherit;
+  color: #a7a7a7;
+  text-align: left;
+  font-size: 16px;
+  border-radius: 4px;
+  align-items: center;
+  display: flex;
+  gap: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #33b4a7;
+  color: white;
+}
+
+.logout-btn {
+  background-color: rgba(209, 217, 217, 0.2);
+}
+
+hr {
+  border-top: 1px solid #bab6b6b2;
+  margin-bottom: 11px;
+  margin-top: 11px;
+}
+
+.logout-line {
+  border-bottom: 1px solid rgba(66, 66, 66, 0.7);
+  margin-top: 2rem;
+}
+
+.vu-profile {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.Tanzir {
+  margin: 0;
+}
+
+.ssp {
+  font-size: 10px;
+  margin: 0;
+  color: #FFFFFFB2;
+  ;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.profile-img {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+
+.btm-button {
+  margin: 6rem 0 2rem 0;
+}
+
+a {
+  text-decoration: none;
+  color: #a7a7a7;
+}
