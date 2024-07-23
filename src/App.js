@@ -2,7 +2,7 @@ import './App.css';
 import Nav from './component/navbar';
 import Mobilenav from './component/mobilenav';
 import Overview from './pages/overview';
-import Welcome from './pages/welcome';
+// import Welcome from './pages/welcome';
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
         <Nav/>
         <Mobilenav/>
         <Overview />
-        <Welcome />
+        {/* <Welcome /> */}
     </div>
   );
 }

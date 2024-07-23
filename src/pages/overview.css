@@ -2,7 +2,6 @@
   margin-left: 21%;
   padding: 20px;
   background-color: rgb(230, 238, 238);
-  width: 75%;
   display: flex;
   flex-direction: column;
 }
@@ -24,9 +23,28 @@ input {
 
 .sec-1 {
   display: flex;
+  justify-content: space-between;
   gap: 1rem;
   flex-wrap: wrap;
   width: 100%;
+}
+
+.total-balance {
+  display: flex;
+  flex-direction: column;
+  width: 31%;
+}
+
+.goals {
+  display: flex;
+  flex-direction: column;
+  width: 31%;
+}
+
+.upcoming-bills {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
 }
 
 .smp {
@@ -113,7 +131,6 @@ b {
 .target {
   display: flex;
   gap: 10px;
-  flex-wrap: wrap;
 }
 
 .tar-icon {
@@ -135,6 +152,7 @@ b {
 
 .lack-text {
   font-size: 10px;
+  text-wrap: nowrap;
   word-spacing: 12px;
   text-align: center;
 }
@@ -192,8 +210,28 @@ b {
 
 .sec-2 {
   display: flex;
+  justify-content: space-between;
   gap: 20px;
   flex-wrap: wrap;
+}
+
+.recent-transaction {
+  width: 30%;
+}
+
+.statistic-div {
+  width: 65%;
+}
+
+.graph {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.graph img {
+  width: 100%;
 }
 
 .ssp-ash {

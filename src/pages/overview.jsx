@@ -81,9 +81,11 @@ function Overview() {
             </div>
           </div>
           </div>
+
         </section>
 
         <section className='sec-2'>
+
           <div className='recent-transaction'>
 
           <div> <p className='smp'>Recent Transaction</p> </div>
@@ -151,88 +153,93 @@ function Overview() {
           </div>
           </div>
 
-          <div>
-          <div className="staistics">
-            <div> <p className='smp'>Staistics</p> </div>
-            <div> 
-              <select name="1" id="defualt"> 
-            <option><i className='bold'> Weekly Coparison </i> </option>
-            <option><i className='bold'> Daily Coparison </i> </option> 
-            <option><i className='bold'> mounthly Coparison </i> </option> 
-            </select></div>
-          </div>
-          
-          <div className="expenses">
-            <div> <p className='smp'>Expenses and Breaked</p> </div>
-            <div className='semi-expenses'>
-
-              <div className='ex-1'>
-                <div className="subx-1">
-                <div> <img src=".\img\briyana.svg" alt="" />  </div>
-                  <div>
-                    <p className='ssp-ash'>Housing</p>
-                    <p className='bold'>$250.00</p>
-                    <p className="ssp-ash">15% <img src=".\img\Up arrow.svg" alt="arrow" /> </p>
-                  </div>
-                  <div> <img src=".\img\left arrow.svg" alt="" /> </div>
-                </div>
-
-                <div className="subx-1">
-                <div> <img src=".\img\briyana.svg" alt="" />  </div>
-                  <div>
-                    <p className='ssp-ash'>Housing</p>
-                    <p className='bold'>$250.00</p>
-                    <p className="ssp-ash">15% <img src=".\img\Up arrow.svg" alt="arrow" /> </p>
-                  </div>
-                  <div> <img src=".\img\left arrow.svg" alt="" /> </div>
-                </div>
-
-                <div className="subx-1">
-                <div> <img src=".\img\briyana.svg" alt="" />  </div>
-                  <div>
-                    <p className='ssp-ash'>Housing</p>
-                    <p className='bold'>$250.00</p>
-                    <p className="ssp-ash">15% <img src=".\img\Up arrow.svg" alt="arrow" /> </p>
-                  </div>
-                  <div> <img src=".\img\left arrow.svg" alt="" /> </div>
-                </div>
+          <div className='statistic-div'>
+            <div className="staistics">
+              <div> <p className='smp'>Staistics</p> </div>
+              <div> 
+                <select name="1" id="defualt"> 
+                  <option><i className='bold'> Weekly Coparison </i> </option>
+                  <option><i className='bold'> Daily Coparison </i> </option> 
+                  <option><i className='bold'> mounthly Coparison </i> </option> 
+                </select>
               </div>
+              <div className='graph'>
+                <img src="./img/Graph.png" alt="" />
+              </div>
+            </div>
+            
+            <div className="expenses">
+              <div> <p className='smp'>Expenses and Breaked</p> </div>
+              <div className='semi-expenses'>
 
-              <div className='ex-2'>
-
-              <div className="subx-2">
-                <div> <img src=".\img\briyana.svg" alt="" />  </div>
-                  <div>
-                    <p className='ssp-ash'>Housing</p>
-                    <p className='bold'>$250.00</p>
-                    <p className="ssp-ash">15% <img src=".\img\Up arrow.svg" alt="arrow" /> </p>
+                <div className='ex-1'>
+                  <div className="subx-1">
+                  <div> <img src=".\img\briyana.svg" alt="" />  </div>
+                    <div>
+                      <p className='ssp-ash'>Housing</p>
+                      <p className='bold'>$250.00</p>
+                      <p className="ssp-ash">15% <img src=".\img\Up arrow.svg" alt="arrow" /> </p>
+                    </div>
+                    <div> <img src=".\img\left arrow.svg" alt="" /> </div>
                   </div>
-                  <div> <img src=".\img\left arrow.svg" alt="" /> </div>
+
+                  <div className="subx-1">
+                  <div> <img src=".\img\briyana.svg" alt="" />  </div>
+                    <div>
+                      <p className='ssp-ash'>Housing</p>
+                      <p className='bold'>$250.00</p>
+                      <p className="ssp-ash">15% <img src=".\img\Up arrow.svg" alt="arrow" /> </p>
+                    </div>
+                    <div> <img src=".\img\left arrow.svg" alt="" /> </div>
+                  </div>
+
+                  <div className="subx-1">
+                  <div> <img src=".\img\briyana.svg" alt="" />  </div>
+                    <div>
+                      <p className='ssp-ash'>Housing</p>
+                      <p className='bold'>$250.00</p>
+                      <p className="ssp-ash">15% <img src=".\img\Up arrow.svg" alt="arrow" /> </p>
+                    </div>
+                    <div> <img src=".\img\left arrow.svg" alt="" /> </div>
+                  </div>
                 </div>
 
-                <div className="subx-2">
-                <div> <img src=".\img\briyana.svg" alt="" />  </div>
-                  <div>
-                    <p className='ssp-ash'>Housing</p>
-                    <p className='bold'>$250.00</p>
-                    <p className="ssp-ash">15% <img src=".\img\Up arrow.svg" alt="arrow" /> </p>
-                  </div>
-                  <div> <img src=".\img\left arrow.svg" alt="" /> </div>
-                </div>
+                <div className='ex-2'>
 
                 <div className="subx-2">
-                <div> <img src=".\img\briyana.svg" alt="" />  </div>
-                  <div>
-                    <p className='ssp-ash'>Housing</p>
-                    <p className='bold'>$250.00</p>
-                    <p className="ssp-ash">15% <img src=".\img\Up arrow.svg" alt="arrow" /> </p>
+                  <div> <img src=".\img\briyana.svg" alt="" />  </div>
+                    <div>
+                      <p className='ssp-ash'>Housing</p>
+                      <p className='bold'>$250.00</p>
+                      <p className="ssp-ash">15% <img src=".\img\Up arrow.svg" alt="arrow" /> </p>
+                    </div>
+                    <div> <img src=".\img\left arrow.svg" alt="" /> </div>
                   </div>
-                  <div> <img src=".\img\left arrow.svg" alt="" /> </div>
+
+                  <div className="subx-2">
+                  <div> <img src=".\img\briyana.svg" alt="" />  </div>
+                    <div>
+                      <p className='ssp-ash'>Housing</p>
+                      <p className='bold'>$250.00</p>
+                      <p className="ssp-ash">15% <img src=".\img\Up arrow.svg" alt="arrow" /> </p>
+                    </div>
+                    <div> <img src=".\img\left arrow.svg" alt="" /> </div>
+                  </div>
+
+                  <div className="subx-2">
+                  <div> <img src=".\img\briyana.svg" alt="" />  </div>
+                    <div>
+                      <p className='ssp-ash'>Housing</p>
+                      <p className='bold'>$250.00</p>
+                      <p className="ssp-ash">15% <img src=".\img\Up arrow.svg" alt="arrow" /> </p>
+                    </div>
+                    <div> <img src=".\img\left arrow.svg" alt="" /> </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          </div>
+
         </section>
         </div>
     );
